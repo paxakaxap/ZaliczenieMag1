@@ -9,13 +9,16 @@ public class menuloader : MonoBehaviour
 
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
     }
 
 
     void Update()
     {
-        
+        if (Input.GetButton("Cancel"))
+        {
+            ExitGame();
+        }
     }
 
     public void LoadOne()
