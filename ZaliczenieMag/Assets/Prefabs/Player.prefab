@@ -116,9 +116,9 @@ MonoBehaviour:
   sensitivity: 2
   pCamera: {fileID: 2236964596200694269}
   clampAngle: 90
-  jumpSpeed: 7
+  jumpSpeed: 5
   gravity: 13
-  sprint: 2
+  sprint: 1.5
 --- !u!143 &2236964595816701692
 CharacterController:
   m_ObjectHideFlags: 0
