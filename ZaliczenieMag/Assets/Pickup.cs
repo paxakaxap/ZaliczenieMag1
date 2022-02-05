@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour
 {
     public GameObject gun;
+    public GameObject crosshair;
     public GameObject mesh;
     public Transform meshT;
     private float rotateFloat = 0f;
@@ -27,6 +28,7 @@ public class Pickup : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(soundB, gameObject.transform.position);
         gun.SetActive(true);
+        crosshair.SetActive(true);
         Destroy(gameObject);
     }
 }
